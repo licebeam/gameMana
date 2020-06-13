@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-self.isClosed = true;
+self.isClosed = false;
 
-layer = 2;
+layer = 1;
 image_speed = 0;

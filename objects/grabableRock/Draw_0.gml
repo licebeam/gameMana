@@ -1,8 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(isClosed){
-	image_index = 0;
+draw_self();
+
+if(!self.attackable){
+	image_alpha = 0.4;
 } else {
-	screenShake();
-	instance_change(wallBlockOpenObj, true);
+	image_alpha = 1;
 }

@@ -1,43 +1,33 @@
 {
-    "id": "8497fd5f-02b9-4292-a17d-ea56476889ee",
+    "id": "9ae14c09-44f3-491b-a9d4-3512e6038fae",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "grabableRock",
+    "name": "wallBlockOpenObj",
     "eventList": [
         {
-            "id": "e4b538c1-e27d-4735-917c-052179d03ad9",
+            "id": "f43d7d02-8c84-435e-ad04-83e14d38e46a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "8497fd5f-02b9-4292-a17d-ea56476889ee"
+            "m_owner": "9ae14c09-44f3-491b-a9d4-3512e6038fae"
         },
         {
-            "id": "2041da43-35bc-471f-a1e2-b1481def48ac",
+            "id": "e27db06f-be6f-4cb8-afc6-42d594dfb101",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "8497fd5f-02b9-4292-a17d-ea56476889ee"
-        },
-        {
-            "id": "913c7756-bb97-4149-83ac-b3bf3e3e585d",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "8497fd5f-02b9-4292-a17d-ea56476889ee"
+            "eventtype": 3,
+            "m_owner": "9ae14c09-44f3-491b-a9d4-3512e6038fae"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "9fad266d-6f6d-4dd8-aca7-778e6616be97",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -53,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "7785d707-be6e-4092-9051-b6943a91dff8",
+    "spriteId": "6870f9bf-f301-492c-9b6d-70531e2fbd8f",
     "visible": true
 }
