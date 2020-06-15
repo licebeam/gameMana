@@ -57,7 +57,7 @@ with self.hitbox{
 
 //collision stuff
 var myId = id;
-var myDamage = 1;
+var myDamage = playerObj.damage;
 
 with(self.hitbox){
 	hbParent = myId;

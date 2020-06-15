@@ -1,5 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+//randomize damage num
+self.damage = irandom_range(8, 16)
+//
 basicPlayerCollision();
 playerController();
 playerAnimator(self.curAnim, 4)

@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(hitPoints <= 1){
+if(hitPoints <= 10){
 	self.sprite = breakableSpr2;
 }
 

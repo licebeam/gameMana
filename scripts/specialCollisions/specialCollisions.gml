@@ -5,14 +5,6 @@ var sprite_bbox_bottom = sprite_get_bbox_bottom(mask_index) - sprite_get_yoffset
 var sprite_bbox_left = sprite_get_bbox_left(mask_index) - sprite_get_xoffset(mask_index);
 var sprite_bbox_right = sprite_get_bbox_right(mask_index) - sprite_get_xoffset(mask_index);
 
-//DELTA TIME MOVE
-var secondsPassed = delta_time/1000000;
-var horizontalMovement = hspd*secondsPassed;
-var verticalMovement = vspd*secondsPassed;
-
-//Horizontal collisions
-x += horizontalMovement;
-
 if place_meeting(x, y, playerObj) { 
     var player = instance_place(x,y,playerObj);
     if (hspd > 0) { //right
@@ -33,9 +25,6 @@ if place_meeting(x, y, wallObj) {
 	hspd = 0
 }
 
-
-//Vertical collisions
-y += verticalMovement;
 
 if place_meeting(x, y, playerObj) {
     var player = instance_place(x, y, playerObj);

@@ -47,6 +47,7 @@ self.blinkTimer = 60;
 // Battle Stats
 self.hp = 60;
 self.level = 1;
+self.damage = 0;
 
 
 //Compass Rose
