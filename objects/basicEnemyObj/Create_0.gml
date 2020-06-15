@@ -34,3 +34,13 @@ vspd = 0;
 hitPoints = 60;
 damage = 0;
 experience = 10;
+
+
+//Attack animations
+specialAttackTimer = 30;
+isDoingSpecialAttack = false;
+specialAttackFrames = 12;
+//used for special attack targeting
+lastKnownPlayerX = 0;
+lastKnownPlayerY = 0;
+attackCooldown = 0;
