@@ -36,3 +36,18 @@ self.curGrab = false;
 self.throwHoldTimer = 0;
 self.throwBox = false;
 self.canThrow = false;
+
+
+//Player is Damaged Vars
+self.isHit = false;
+self.isDamaged = false;
+self.blinkTimer = 60;
+
+
+// Battle Stats
+self.hp = 60;
+self.level = 1;
+
+
+//Compass Rose
+instance_create_depth(self.x, self.y, -2, compassRoseObj);

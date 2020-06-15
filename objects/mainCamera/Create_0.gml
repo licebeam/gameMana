@@ -12,3 +12,10 @@ surface_resize(application_surface, view_width * window_scale, view_height * win
 
 
 isScreenShake = false;
+
+//Scribble code?
+//Start initialisation:
+//  The font directory is set as the root of the sandbox
+//  The default font is set as "fnt_dialogue"
+//  Automatic scanning for fonts ("autoscan") is turned off
+scribble_init("fonts", "numFont", true);

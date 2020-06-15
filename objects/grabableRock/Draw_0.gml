@@ -7,3 +7,5 @@ if(!self.attackable){
 } else {
 	image_alpha = 1;
 }
+
+scribble_draw(self.x, self.y - 16, scribbleCreated);
