@@ -4,6 +4,7 @@
 //randomize damage num
 self.damage = irandom_range(8, 16)
 //
+playerLevelUp();
 basicPlayerCollision();
 playerController();
 playerAnimator(self.curAnim, 4)

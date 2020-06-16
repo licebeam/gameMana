@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-scribbleCreated =  "[wave]" + string(numToDisplay) + "[/wave]";
+scribbleCreated =  "[mainFont][wave]" + string(numToDisplay) + "[/wave][/font]";
 scribble_draw(self.x, self.y, scribbleCreated);

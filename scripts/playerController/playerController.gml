@@ -40,7 +40,7 @@ if(self.state == "none" and self.attackState == "none"){
 			self.currentlyFacing = "up"
 		}
 		
-		if(keyboard_check(ord("S"))){ 
+		if(keyboard_check(ord("S"))){
 			if(self.heldItem){
 				self.curAnim = playerCarryD;
 			} else {			

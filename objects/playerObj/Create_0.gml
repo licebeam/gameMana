@@ -46,9 +46,18 @@ self.blinkTimer = 60;
 
 // Battle Stats
 self.hp = 60;
+self.maxHp = 60;
 self.level = 1;
 self.damage = 0;
+self.strength = 10;
+self.defense = 6;
 
 
 //Compass Rose
 instance_create_depth(self.x, self.y, -2, compassRoseObj);
+
+
+//experience Points
+currentExp = 0;
+
+

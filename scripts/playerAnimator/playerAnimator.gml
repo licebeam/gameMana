@@ -15,7 +15,7 @@ if(self.animationFrames != (image_number * animSpeed)){
 	if((animationFrames mod animSpeed) == 0){
 		image_index += 1;
 	}
-
+	
 	
 	if(self.animationFrames >= (image_number * animSpeed)){
 		if(self.attackState != "none"){
@@ -78,4 +78,28 @@ if(checkMaxOnScreen()){
 				}
 			break;
 		}
+}
+
+//WALKING SOUND EFFECTS
+switch(animName){
+	case playerWalkR:
+		if(!audio_is_playing(walkSound)){
+			audio_play_sound(walkSound, 1, false);
+		}
+	break;
+	case playerWalkL:
+		if(!audio_is_playing(walkSound)){
+			audio_play_sound(walkSound, 1, false);
+		}
+	break;
+	case playerWalkDown:
+		if(!audio_is_playing(walkSound)){
+			audio_play_sound(walkSound, 1, false);
+		}
+	break;
+	case playerWalkUp:
+		if(!audio_is_playing(walkSound)){
+			audio_play_sound(walkSound, 1, false);
+		}
+	break;
 }

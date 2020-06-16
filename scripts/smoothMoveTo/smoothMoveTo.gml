@@ -14,7 +14,6 @@ if(point_distance(self.x, self.y, _tx, _ty) <= 16){
 }
 
 //Move towards position
-show_debug_message(point_distance(self.x, self.y, _tx, _ty))
 if(self.x != _tx){
 	self.x += hspd;
 }

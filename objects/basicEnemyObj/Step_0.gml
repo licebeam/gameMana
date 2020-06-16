@@ -2,49 +2,42 @@
 // You can write your code in this editor
 //Always run special collisions
 
-specialAnimator(self.sprite, false, 1);
+enemyAnimator(self.sprite, false, 6);
 
-damage = irandom_range(10, 30);
-if(hitPoints <= 0){
-	instance_destroy(self);
-}
-
+//set enemy damage to a random number each frame
+damage = irandom_range(8, 15);
 
 if(isDoingSpecialAttack == false){
-	self.holdAnim = true;
 	mp_potential_step_object(targetX, targetY, 0.5, wallObj);
-	show_debug_message(distance_to_object(playerObj))
 	//closest range to player
 	if(distance_to_object(playerObj) < 16){
 		targetX = self.x;
 		targetY = self.y;
-		image_alpha = 0.4
 		lastKnownPlayerX = playerObj.x;
 		lastKnownPlayerY = playerObj.y;
 		//start special attack when in range
 		if(attackCooldown <= 0){
+			self.sprite = slimeAttackSpr;
 			isDoingSpecialAttack = true;
 		}
 	}
 
 	//range to approach
 	if(distance_to_object(playerObj) < 64 and distance_to_object(playerObj) > 16){
+		self.sprite = slimeSpr;
 		targetX = playerObj.x;
-		targetY = playerObj.y
-		image_alpha = 1;
+		targetY = playerObj.y;
 	}
 }
 
 //Hit Stuff
+//check for death
 if(hitPoints <= 0){
-	generateItem(self.itemToGenerate)
+	//generateItem(self.itemToGenerate)
 	instance_create_depth(self.x, self.y, -2, fireSparkObj);
 	createExplosiveChunks(self.x, self.y);
 	instance_destroy(self);
 }
-
-specialAnimator(self.sprite, false, 1);
-
 
 ///ENEMY KNOCKBACK CODE
 if(knockBackTimer >= 0){
@@ -76,6 +69,7 @@ if(knockBackTimer >= 0){
 }
 
 if(knockBackDir != false){
+	self.sprite = slimeHurtSpr;
 	//Stop enemy from special attacking while stun locked - Temporary?
 	specialAttackTimer = 30;
 	specialAttackFrames = 12;
@@ -103,7 +97,7 @@ if(attackCooldown <= 0){
 
 	if(specialAttackTimer <= 0 and specialAttackFrames >= 1){
 		//DO SOME SPECIAL ATTACK HERE after 30 Frames
-	mp_linear_step_object(lastKnownPlayerX, lastKnownPlayerY, 3, wallObj);
+		mp_linear_step_object(lastKnownPlayerX, lastKnownPlayerY, 3, wallObj);
 		specialAttackFrames -=1;
 	}
 

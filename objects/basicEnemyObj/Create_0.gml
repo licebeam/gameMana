@@ -9,10 +9,9 @@ targetY = self.y;
 self.randNumber = random_range(1, 2);
 self.itemToGenerate = randomItem(self.randNumber);
 hitPoints = 3;
-self.holdAnim = true;
 image_speed = 0;
 self.animationFrames = 0;
-self.sprite = slimeEnemySpr;
+self.sprite = slimeSpr;
 
 
 //flash
@@ -33,7 +32,7 @@ vspd = 0;
 // STATS FOR BATTLE
 hitPoints = 60;
 damage = 0;
-experience = 10;
+experience = 40;
 
 
 //Attack animations
