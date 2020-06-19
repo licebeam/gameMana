@@ -83,23 +83,23 @@ if(checkMaxOnScreen()){
 //WALKING SOUND EFFECTS
 switch(animName){
 	case playerWalkR:
-		if(!audio_is_playing(walkSound)){
-			audio_play_sound(walkSound, 1, false);
+		if(!audio_is_playing(hurtSound) and image_index ==1){
+			audio_play_sound(hurtSound, 1, false);
 		}
 	break;
 	case playerWalkL:
-		if(!audio_is_playing(walkSound)){
-			audio_play_sound(walkSound, 1, false);
+		if(!audio_is_playing(hurtSound) and image_index ==1){
+			audio_play_sound(hurtSound, 1, false);
 		}
 	break;
 	case playerWalkDown:
-		if(!audio_is_playing(walkSound)){
-			audio_play_sound(walkSound, 1, false);
+		if(!audio_is_playing(hurtSound) and image_index ==1){
+			audio_play_sound(hurtSound, 1, false);
 		}
 	break;
 	case playerWalkUp:
-		if(!audio_is_playing(walkSound)){
-			audio_play_sound(walkSound, 1, false);
+		if(!audio_is_playing(hurtSound) and image_index ==1){
+			audio_play_sound(hurtSound, 1, false);
 		}
 	break;
 }

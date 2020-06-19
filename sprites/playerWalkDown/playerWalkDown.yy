@@ -9,53 +9,75 @@
     "bbox_bottom": 31,
     "bbox_left": 9,
     "bbox_right": 22,
-    "bbox_top": 16,
+    "bbox_top": 10,
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
     "edgeFiltering": false,
     "frames": [
         {
-            "id": "1eec22ef-3c95-47f0-bf60-8828ff05b6b0",
+            "id": "fc48d56b-778d-4204-b0be-56585626404d",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
             "SpriteId": "ef7fbc11-3bfb-48bd-8b13-9cde8f885961",
             "compositeImage": {
-                "id": "92a2726d-6182-42ce-b41c-71fa01fc0cc9",
+                "id": "fd791b11-b413-4640-8e4f-e1316ae21a5f",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "1eec22ef-3c95-47f0-bf60-8828ff05b6b0",
+                "FrameId": "fc48d56b-778d-4204-b0be-56585626404d",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "990264bc-a91c-4469-bd4a-a60abcf80a65",
+                    "id": "ce137e74-1793-4fa2-abe7-7fff832337ce",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "1eec22ef-3c95-47f0-bf60-8828ff05b6b0",
-                    "LayerId": "e45ac8b2-f1ce-45d8-96c8-93613de67d3f"
+                    "FrameId": "fc48d56b-778d-4204-b0be-56585626404d",
+                    "LayerId": "54a7580f-f524-4ccf-890a-1eda78d9801e"
                 }
             ]
         },
         {
-            "id": "30981b93-87b9-459b-8e1b-8c29c48c488d",
+            "id": "7465ab93-2fea-440d-8a70-0de527c65579",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
             "SpriteId": "ef7fbc11-3bfb-48bd-8b13-9cde8f885961",
             "compositeImage": {
-                "id": "8bb51570-9b29-4bab-bd28-3ea5aae9a6b4",
+                "id": "fca6f184-6c89-4305-b7b4-2ef9b5566bec",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "30981b93-87b9-459b-8e1b-8c29c48c488d",
+                "FrameId": "7465ab93-2fea-440d-8a70-0de527c65579",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "a1f37859-0275-4f82-a9fc-f92154c39c54",
+                    "id": "a0d817b8-af35-49a7-945c-8fcef4274eb2",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "30981b93-87b9-459b-8e1b-8c29c48c488d",
-                    "LayerId": "e45ac8b2-f1ce-45d8-96c8-93613de67d3f"
+                    "FrameId": "7465ab93-2fea-440d-8a70-0de527c65579",
+                    "LayerId": "54a7580f-f524-4ccf-890a-1eda78d9801e"
+                }
+            ]
+        },
+        {
+            "id": "fc06773b-515f-4e7d-a31e-f3d104b0ada6",
+            "modelName": "GMSpriteFrame",
+            "mvc": "1.0",
+            "SpriteId": "ef7fbc11-3bfb-48bd-8b13-9cde8f885961",
+            "compositeImage": {
+                "id": "3afa0483-1fb9-46a7-bd2e-46663bd39e43",
+                "modelName": "GMSpriteImage",
+                "mvc": "1.0",
+                "FrameId": "fc06773b-515f-4e7d-a31e-f3d104b0ada6",
+                "LayerId": "00000000-0000-0000-0000-000000000000"
+            },
+            "images": [
+                {
+                    "id": "52931ba5-fafd-4819-9de4-cccf074def6b",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "fc06773b-515f-4e7d-a31e-f3d104b0ada6",
+                    "LayerId": "54a7580f-f524-4ccf-890a-1eda78d9801e"
                 }
             ]
         }
@@ -65,7 +87,7 @@
     "height": 32,
     "layers": [
         {
-            "id": "e45ac8b2-f1ce-45d8-96c8-93613de67d3f",
+            "id": "54a7580f-f524-4ccf-890a-1eda78d9801e",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
             "SpriteId": "ef7fbc11-3bfb-48bd-8b13-9cde8f885961",

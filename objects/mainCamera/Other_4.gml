@@ -12,4 +12,8 @@ justEnteredRoom = true;
 areaNameY = 0;
 
 audio_stop_all();
-audio_play_sound(caveMusic, 2, true);
+//audio_play_sound(caveMusic, 2, true);
+
+
+
+//set ShadowTiles to low salpha

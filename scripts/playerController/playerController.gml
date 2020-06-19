@@ -195,7 +195,7 @@ if(self.state == "none" and self.attackState == "none"){
 					}else{
 						self.curAnim = playerND;
 					}
-					self.animationFrames = 2;
+					//self.animationFrames = 2;
 					break;
 					
 					case "right":
@@ -240,7 +240,7 @@ if(self.state == "none" and self.attackState == "none"){
 					}else{
 						self.curAnim = playerND;
 					}
-					self.animationFrames = 2;
+					//self.animationFrames = 2;
 					break;
 					
 					case "right":

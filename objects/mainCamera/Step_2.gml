@@ -13,7 +13,7 @@ if(instance_exists(roomViewGrabber)){
 	var spd = .1;
 	
 	if(self.isScreenShake){
-		camera_set_view_pos(view,lerp(cur_x, irandom_range(_x -10, _x + 10), .4), lerp(cur_y, _y, .4));
+		camera_set_view_pos(view, lerp(cur_x, irandom_range(_x -10, _x + 10), .4), lerp(cur_y, _y, .4));
 	} else {
 		camera_set_view_pos(view, lerp(cur_x, _x, spd), lerp(cur_y, _y, spd));
 	}
