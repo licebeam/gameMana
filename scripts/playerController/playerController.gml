@@ -59,6 +59,7 @@ if(self.state == "none" and self.attackState == "none"){
 				hspd = 0;
 				vspd = 0;
 				self.currentlyFacing = "right"
+				instance_create_depth(x, y + 8, -2, smokePuffEffect);
 				resetThrow();
 		}
 	
@@ -66,6 +67,7 @@ if(self.state == "none" and self.attackState == "none"){
 				hspd = 0;
 				vspd = 0;
 				self.currentlyFacing = "left"
+				instance_create_depth(x, y + 8, -2, smokePuffEffect);
 				resetThrow();
 		}
 		
@@ -73,6 +75,7 @@ if(self.state == "none" and self.attackState == "none"){
 				hspd = 0;
 				vspd = 0;
 				self.currentlyFacing = "up"
+				instance_create_depth(x, y + 8, -2, smokePuffEffect);
 				resetThrow();
 		}
 		
@@ -80,6 +83,7 @@ if(self.state == "none" and self.attackState == "none"){
 				hspd = 0;
 				vspd = 0;
 				self.currentlyFacing = "down"
+				instance_create_depth(x, y + 8, -2, smokePuffEffect);
 				resetThrow();
 		}		
 		//

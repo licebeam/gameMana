@@ -26,3 +26,6 @@ scribble_set_starting_format("coolFont", c_white, 0);
 areaNameTimer = 0; //counts up to 120 frames
 justEnteredRoom = true;
 areaNameY = 0;
+
+
+heart2X = 0;

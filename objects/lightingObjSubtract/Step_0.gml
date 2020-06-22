@@ -44,14 +44,26 @@ if (surface_exists(surf)) {
         draw_sprite_ext(glowingAlphaSpr, 0, x, y, 0.3, 0.3, 0, c_black, 1);
 	with (lancePickUp)
         draw_sprite_ext(glowingAlphaSpr, 0, x, y, 0.3, 0.3, 0, c_black, 1);
+	with (fireFlyCameraEffect)
+        draw_sprite_ext(glowingAlphaSprSmall, 0, x, y, 0.1, 0.1, 0, c_black, 1);
 	//change to colored 
 	gpu_set_blendmode_ext(bm_src_alpha, bm_max);
 		//lights
 	with (glowBall)
         draw_sprite_ext(glowingAlphaSpr, 0, x + random_range(-2, 2), y + random_range(-2, 2), random_range(0.2, 0.3), random_range(0.2, 0.3), 0, c_orange, 0.7);
+	with (fireFlyCameraEffect)
+        draw_sprite_ext(glowingAlphaSprSmall, 0, x + random_range(-1, 1), y + random_range(-1, 1), random_range(0.1, 0.2), random_range(0.1, 0.2), 0, c_green, 0.7);
 	with (lancePickUp)
         draw_sprite_ext(glowingAlphaSpr, 0, x + random_range(-2, 2), y + random_range(-2, 2), random_range(0.2, 0.3), random_range(0.2, 0.3), 0, c_green, 0.7);
 
+
+
+
+//DO SOME COOL OVERLAY STUFF
+    // The following three lines set the 'dark' overlay
+    draw_set_color(c_blue);
+    draw_set_alpha(0.1);
+    draw_rectangle(0, 0, room_width, room_height, 0);
     // Reset all of your draw stuff
 	gpu_set_blendmode(bm_normal);
     draw_set_alpha(1);

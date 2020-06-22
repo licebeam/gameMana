@@ -45,8 +45,10 @@ self.blinkTimer = 60;
 
 
 // Battle Stats
-self.hp = 60;
-self.maxHp = 60;
+self.hp = 12;
+self.maxHp = 12;
+self.mp = 3;
+self.maxMp = 3;
 self.level = 1;
 self.damage = 0;
 self.strength = 10;
