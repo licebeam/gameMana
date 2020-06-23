@@ -1,5 +1,5 @@
 //Initiate Player Controller
-if(self.state == "none" and self.attackState == "none"){
+if(self.state == "none" and self.attackState == "none" and !self.isPaused){
 		
 		if(keyboard_check(ord("D"))){
 			if(self.heldItem){

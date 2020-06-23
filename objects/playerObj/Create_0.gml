@@ -4,7 +4,7 @@ mask_index = playerHitbox;
 //initial
 hspd = 0;
 vspd = 0;
-
+isPaused = true;
 image_speed = 0;
 //state machine
 self.state = "none";
@@ -63,5 +63,3 @@ instance_create_depth(self.x, self.y, -2, compassRoseObj);
 
 //experience Points
 currentExp = 0;
-
-

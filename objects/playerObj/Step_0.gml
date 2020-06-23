@@ -32,7 +32,9 @@ if(blinkTimer mod 4 == 1){
 
 if(self.hp <= 0){
 //player has died
-room_restart();
+	room_restart();
+	self.hp = self.maxHp;
+	//set mp here too
 }
 
 if(self.attackBar <= 98){

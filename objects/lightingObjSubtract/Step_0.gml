@@ -4,9 +4,9 @@
 
 // Surfaces are volatile 
 // Always check that they haven't been destroyed 
-if (surface_exists(surf)) {
+if (surface_exists(surf) and room == 0) {
     surface_set_target(surf);
-
+	
     // The following three lines set the 'dark' overlay
     draw_set_color(c_black);
     draw_set_alpha(0.5);

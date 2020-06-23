@@ -5,15 +5,13 @@ view_visible[0] = true;
 
 randomize();
 
-
-//room stuff
-areaNameTimer = 0; //counts up to 120 frames
-justEnteredRoom = true;
-areaNameY = 0;
-
 audio_stop_all();
 //audio_play_sound(caveMusic, 2, true);
 
 
 
 //set ShadowTiles to low salpha
+
+
+//draw room transition
+instance_create_depth(0, 0, -1000, roomTransitionObj);

@@ -21,11 +21,3 @@ isScreenShake = false;
 scribble_init("fonts", "numFont", true);
 scribble_bake_outline("numFont", "coolFont", 2, 1, c_black, false);
 scribble_set_starting_format("coolFont", c_white, 0);
-
-//Area name 
-areaNameTimer = 0; //counts up to 120 frames
-justEnteredRoom = true;
-areaNameY = 0;
-
-
-heart2X = 0;

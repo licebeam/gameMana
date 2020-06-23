@@ -22,3 +22,7 @@ if(playerObj.x <= bbox_left){
 
 
 //180 W 320 H
+
+if(timerForAreaText >= -600){
+ timerForAreaText -= 3
+}

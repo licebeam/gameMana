@@ -14,5 +14,3 @@ dialogArray = [
 
 scribbleCreated =  dialogArray[irandom_range(0, 4)];
 scribble_autotype_fade_in(scribbleCreated, 0.3, 1, false);
-
-

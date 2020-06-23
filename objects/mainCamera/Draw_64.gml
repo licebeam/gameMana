@@ -51,13 +51,5 @@ draw_rectangle_color(24, 88, playerObj.attackBar + 32, 98, c_blue, c_blue, c_blu
 //draw_rectangle_color(0, 60, playerObj.currentExp,80, c_blue, c_blue, c_blue, c_blue, c_black);
 
 
-
-if(justEnteredRoom == true){
-	scribbleCreated =  "[scale, 3][wave]" + "Demo Caves" + "[/wave][/scale]";
-	scribble_draw(160,  areaNameY, scribbleCreated);
-}
-
-
-
 //debug stuff
 //draw_text(200,30, instance_count);
