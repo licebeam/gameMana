@@ -32,7 +32,7 @@ if(isDoingSpecialAttack == false){
 if(hitPoints <= 0){
 	//generateItem(self.itemToGenerate)
 	instance_create_depth(self.x, self.y, -2, fireSparkObj);
-	createExplosiveChunks(self.x, self.y);
+	//createExplosiveChunks(self.x, self.y);
 	instance_destroy(self);
 }
 
