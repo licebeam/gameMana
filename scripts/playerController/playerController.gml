@@ -195,7 +195,7 @@ if(self.state == "none" and self.attackState == "none"){
 					
 					case "down":
 					if(self.heldItem){
-						self.curAnim = playerCarryD;
+						self.curAnim = playerCarryDNSpr;
 					}else{
 						self.curAnim = playerND;
 					}
@@ -204,7 +204,7 @@ if(self.state == "none" and self.attackState == "none"){
 					
 					case "right":
 					if(self.heldItem){
-						self.curAnim = playerCarryR;
+						self.curAnim = playerCarryRNSpr;
 					}else{
 						self.curAnim = playerNR;
 					}
@@ -213,7 +213,7 @@ if(self.state == "none" and self.attackState == "none"){
 					
 					case "left":
 					if(self.heldItem){
-						self.curAnim = playerCarryL;
+						self.curAnim = playerCarryLNSpr;
 					}else{
 						self.curAnim = playerNL;
 					}
@@ -240,7 +240,7 @@ if(self.state == "none" and self.attackState == "none"){
 					
 					case "down":
 					if(self.heldItem){
-						self.curAnim = playerCarryD;
+						self.curAnim = playerCarryDNSpr;
 					}else{
 						self.curAnim = playerND;
 					}
@@ -249,7 +249,7 @@ if(self.state == "none" and self.attackState == "none"){
 					
 					case "right":
 					if(self.heldItem){
-						self.curAnim = playerCarryR;
+						self.curAnim = playerCarryRNSpr;
 					}else{
 						self.curAnim = playerNR;
 					}
@@ -258,7 +258,7 @@ if(self.state == "none" and self.attackState == "none"){
 					
 					case "left":
 					if(self.heldItem){
-						self.curAnim = playerCarryL;
+						self.curAnim = playerCarryLNSpr;
 					}else{
 						self.curAnim = playerNL;
 					}

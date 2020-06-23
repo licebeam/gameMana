@@ -31,11 +31,16 @@ for(i = 0; i < playerObj.mp; i +=1){
 	}
 }
 
-draw_sprite_ext(weaponIconUiSpr, 0, 832, 500, 3, 3, 0, c_white, 0.8 );
-draw_sprite_ext(weaponIconUiSpr, 0, 876, 460, 3, 3, 0, c_white, 0.8 );
-draw_sprite_ext(weaponIconUiSpr, 0, 920, 500, 3, 3, 0, c_white, 0.8 );
+//draw_sprite_ext(weaponIconUiSpr, 0, 832, 500, 3, 3, 0, c_white, 0.8 );
+//draw_sprite_ext(weaponIconUiSpr, 0, 876, 460, 3, 3, 0, c_white, 0.8 );
+//draw_sprite_ext(weaponIconUiSpr, 0, 920, 500, 3, 3, 0, c_white, 0.8 );
 //draw weapons on top
 draw_sprite_ext(lancePickUpSpr, 0, 828, 502, 3, 3, 0, c_white, 1 );
+draw_text_ext_color(806, 514, "lvl: 1", 32, 120, c_white, c_white, c_white, c_white, 1);
+
+//Attack Bar//
+draw_rectangle_color(24, 88, playerObj.attackBar + 32, 98, c_blue, c_blue, c_blue, c_blue, c_black);
+
 
 //draw_rectangle_color(0,0, 160, 60,c_black, c_black, c_black, c_black, false);
 //draw_set_font(mainFont);

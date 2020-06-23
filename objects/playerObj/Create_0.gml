@@ -53,6 +53,8 @@ self.level = 1;
 self.damage = 0;
 self.strength = 10;
 self.defense = 6;
+//AttackPower bar
+self.attackBar = 0;
 
 
 //Compass Rose

@@ -3,4 +3,4 @@
 
 
 instance_create_depth(x, y, -2, basicSparkObj);
-instance_destroy(hbParent);
+//instance_destroy(hbParent);

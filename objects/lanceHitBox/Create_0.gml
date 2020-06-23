@@ -3,3 +3,5 @@
 
 //The parentId for destroying the parent weapon on collision.
 lifespan = 0;
+
+playerObj.attackBar = 0;

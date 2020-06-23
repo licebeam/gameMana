@@ -5,5 +5,5 @@ if(instance_exists(grabableRock)){
 	var dd = angle_difference(image_angle, pd);
 	image_angle -= min(abs(dd), rspeed) * sign(dd);
 	self.x = playerObj.x;
-	self.y = playerObj.y -8;
+	self.y = playerObj.y -32;
 }

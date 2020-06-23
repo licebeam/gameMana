@@ -4,7 +4,7 @@
 
 if(!thrown){
 	self.x = playerObj.x;
-	self.y = playerObj.y;
+	self.y = playerObj.y - 8;
 } else {
 	throwFrames -= 1
 	with(instance_create_depth(x, y, -2, ghostImage)){

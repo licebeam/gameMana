@@ -2,7 +2,13 @@
 // You can write your code in this editor
 
 //randomize damage num
-self.damage = irandom_range(8, 16)
+if(attackBar < 100){
+	self.damage = irandom_range(2, 5) 
+}
+
+if(attackBar >= 100){
+	self.damage = irandom_range(2, 5) * 3
+}
 //
 playerLevelUp();
 basicPlayerCollision();
@@ -27,4 +33,8 @@ if(blinkTimer mod 4 == 1){
 if(self.hp <= 0){
 //player has died
 room_restart();
+}
+
+if(self.attackBar <= 98){
+	self.attackBar += 2;
 }

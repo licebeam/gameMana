@@ -6,21 +6,21 @@
 switch(playerObj.currentlyFacing){
 	case "left":
 		knockBackDir = "left";
-		knockBackTimer = 20;
+		knockBackTimer = 10;
 	break;
 	
 	case "right":
 		knockBackDir = "right";
-		knockBackTimer = 20;
+		knockBackTimer = 10;
 	break;
 
 	case "up":
 		knockBackDir = "up";
-		knockBackTimer = 20;
+		knockBackTimer = 10;
 	break;
 	
 	case "down":
 		knockBackDir = "down";
-		knockBackTimer = 20;
+		knockBackTimer = 10;
 	break;
 }

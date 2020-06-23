@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+specialAnimator(lanceSpr, true, 1);
 
 if(image_xscale == 1){
 	//self.x += 14;
@@ -7,8 +8,10 @@ if(image_xscale == 1){
 	//self.x -= 14;
 }
 
-self.hitbox.x = self.x;
-self.hitbox.y = self.y;
+if(instance_exists(self.hitbox)){
+	self.hitbox.x = self.x;
+	self.hitbox.y = self.y;
+}
 
 
 lifespan -= 1;

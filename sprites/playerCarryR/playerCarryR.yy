@@ -9,53 +9,75 @@
     "bbox_bottom": 31,
     "bbox_left": 9,
     "bbox_right": 22,
-    "bbox_top": 16,
+    "bbox_top": 10,
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
     "edgeFiltering": false,
     "frames": [
         {
-            "id": "80d8ffb4-ad02-42e0-871f-ea44f370b569",
+            "id": "4e2365fe-b939-4478-a658-e8f3e25a4d26",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
             "SpriteId": "14ea75ce-88d6-4194-96a6-e332e72d8950",
             "compositeImage": {
-                "id": "fef94800-39d1-4faa-9417-a017586dc83a",
+                "id": "7842618b-4241-45e0-98cb-b23acbd7fb75",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "80d8ffb4-ad02-42e0-871f-ea44f370b569",
+                "FrameId": "4e2365fe-b939-4478-a658-e8f3e25a4d26",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "9f2e0746-2abe-425c-87d9-861318c2e761",
+                    "id": "fb492fcd-f8f9-4701-bdd9-4ad513ff26f9",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "80d8ffb4-ad02-42e0-871f-ea44f370b569",
-                    "LayerId": "d17a478d-359d-41ca-a4e3-83b2a3bc4d51"
+                    "FrameId": "4e2365fe-b939-4478-a658-e8f3e25a4d26",
+                    "LayerId": "2b41e517-a573-4b88-82e5-d427d07fe988"
                 }
             ]
         },
         {
-            "id": "e00840fe-8fbe-4c95-bf1c-3ec888e9efb8",
+            "id": "f9bae2d6-b736-4c59-be56-842f5d4de99c",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
             "SpriteId": "14ea75ce-88d6-4194-96a6-e332e72d8950",
             "compositeImage": {
-                "id": "51b6afa6-1bbb-46e9-89c5-f824895404bc",
+                "id": "cd91a11c-9935-4bc3-8e17-79e0c2c7db66",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "e00840fe-8fbe-4c95-bf1c-3ec888e9efb8",
+                "FrameId": "f9bae2d6-b736-4c59-be56-842f5d4de99c",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "ccc3c83b-0761-4d4f-832b-8ad6e1a04bb6",
+                    "id": "6117ecbb-90a5-4db1-8141-ef4bfec5e0c5",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "e00840fe-8fbe-4c95-bf1c-3ec888e9efb8",
-                    "LayerId": "d17a478d-359d-41ca-a4e3-83b2a3bc4d51"
+                    "FrameId": "f9bae2d6-b736-4c59-be56-842f5d4de99c",
+                    "LayerId": "2b41e517-a573-4b88-82e5-d427d07fe988"
+                }
+            ]
+        },
+        {
+            "id": "20c0e6c0-93f4-4e83-84d5-92bb54b9e751",
+            "modelName": "GMSpriteFrame",
+            "mvc": "1.0",
+            "SpriteId": "14ea75ce-88d6-4194-96a6-e332e72d8950",
+            "compositeImage": {
+                "id": "7a6d6eb7-4a88-4da9-8c8d-9ad1a3b569ae",
+                "modelName": "GMSpriteImage",
+                "mvc": "1.0",
+                "FrameId": "20c0e6c0-93f4-4e83-84d5-92bb54b9e751",
+                "LayerId": "00000000-0000-0000-0000-000000000000"
+            },
+            "images": [
+                {
+                    "id": "e38b263e-b3ad-42e5-b8ae-ea346b0979e1",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "20c0e6c0-93f4-4e83-84d5-92bb54b9e751",
+                    "LayerId": "2b41e517-a573-4b88-82e5-d427d07fe988"
                 }
             ]
         }
@@ -65,7 +87,7 @@
     "height": 32,
     "layers": [
         {
-            "id": "d17a478d-359d-41ca-a4e3-83b2a3bc4d51",
+            "id": "2b41e517-a573-4b88-82e5-d427d07fe988",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
             "SpriteId": "14ea75ce-88d6-4194-96a6-e332e72d8950",

@@ -4,9 +4,6 @@
 
 enemyAnimator(self.sprite, false, 6);
 
-//set enemy damage to a random number each frame
-damage = irandom_range(8, 15);
-
 if(isDoingSpecialAttack == false){
 	mp_potential_step_object(targetX, targetY, 0.5, wallObj);
 	//closest range to player

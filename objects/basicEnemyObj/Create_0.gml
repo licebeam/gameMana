@@ -31,7 +31,7 @@ vspd = 0;
 
 // STATS FOR BATTLE
 hitPoints = 60;
-damage = 0;
+damage = 1;
 experience = 40;
 
 

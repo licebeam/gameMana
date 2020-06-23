@@ -84,22 +84,22 @@ if(checkMaxOnScreen()){
 switch(animName){
 	case playerWalkR:
 		if(!audio_is_playing(hurtSound) and image_index ==1){
-			audio_play_sound(hurtSound, 1, false);
+			//audio_play_sound(hurtSound, 1, false);
 		}
 	break;
 	case playerWalkL:
 		if(!audio_is_playing(hurtSound) and image_index ==1){
-			audio_play_sound(hurtSound, 1, false);
+			//audio_play_sound(hurtSound, 1, false);
 		}
 	break;
 	case playerWalkDown:
 		if(!audio_is_playing(hurtSound) and image_index ==1){
-			audio_play_sound(hurtSound, 1, false);
+			//audio_play_sound(hurtSound, 1, false);
 		}
 	break;
 	case playerWalkUp:
 		if(!audio_is_playing(hurtSound) and image_index ==1){
-			audio_play_sound(hurtSound, 1, false);
+			//audio_play_sound(hurtSound, 1, false);
 		}
 	break;
 }

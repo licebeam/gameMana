@@ -3,7 +3,7 @@
 
 if(!thrown){
 	self.x = playerObj.x;
-	self.y = playerObj.y;
+	self.y = playerObj.y - 8;
 } else {
 	throwFrames -= 1
 	if(throwFrames >= 1){
