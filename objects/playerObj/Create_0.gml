@@ -16,10 +16,6 @@ self.currentlyFacing = "right";
 //animation timing
 self.animationFrames = 0;
 self.curAnim = playerNR;
-
-
-//controls
-self.jabButton = ord("F")
 self.playerMoveSpeed = 60;
 
 //Boosted Weapon
@@ -63,3 +59,6 @@ instance_create_depth(self.x, self.y, -2, compassRoseObj);
 
 //experience Points
 currentExp = 0;
+
+//Effects
+smokeToggle = false;

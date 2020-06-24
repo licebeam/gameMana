@@ -1,7 +1,7 @@
 frameCheck1 = 20;
 frameReset = 65;
 
-if(keyboard_check(self.jabButton) and self.heldItem){
+if(global.aButtonHeld and self.heldItem){
 	switch(self.currentlyFacing){
 		case "up":
 				self.throwHoldTimer += 1

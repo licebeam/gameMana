@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+//reset smoke toggle
+if(!instance_exists(smokePuffEffect)){
+	smokeToggle = false
+}
 //randomize damage num
 if(attackBar < 100){
 	self.damage = irandom_range(2, 5) 

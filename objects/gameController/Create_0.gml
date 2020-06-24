@@ -2,4 +2,8 @@
 // You can write your code in this editor
 paused = false;
 pauseSprite = noone;
-TOGGLE_PAUSE = false;
+
+
+//init gamepad setup
+gamePadCreate();
+//controls

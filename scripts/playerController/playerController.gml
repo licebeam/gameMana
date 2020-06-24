@@ -1,7 +1,7 @@
 //Initiate Player Controller
 if(self.state == "none" and self.attackState == "none" and !self.isPaused){
 		
-		if(keyboard_check(ord("D"))){
+		if(global.rightButtonHeld){
 			if(self.heldItem){
 				self.curAnim = playerCarryR;
 			} else {
@@ -12,9 +12,14 @@ if(self.state == "none" and self.attackState == "none" and !self.isPaused){
 			}
 			hspd = playerMoveSpeed;
 			self.currentlyFacing = "right"
+			if(!smokeToggle){
+				if(!instance_exists(smokePuffEffect)){instance_create_depth(x, y + 8, -2, smokePuffEffect);}
+				smokeToggle = true;
+				resetThrow();
+			}
 		}
 	
-		if(keyboard_check(ord("A"))){
+		if(global.leftButtonHeld){
 			if(self.heldItem){
 				self.curAnim = playerCarryL;
 			} else {
@@ -25,9 +30,14 @@ if(self.state == "none" and self.attackState == "none" and !self.isPaused){
 			}
 			hspd = -playerMoveSpeed;
 			self.currentlyFacing = "left"
+			if(!smokeToggle){
+				if(!instance_exists(smokePuffEffect)){instance_create_depth(x, y + 8, -2, smokePuffEffect);}
+				smokeToggle = true;
+				resetThrow();
+			}
 		}
 		
-		if(keyboard_check(ord("W"))){
+		if(global.upButtonHeld == true){
 			if(self.heldItem){
 				self.curAnim = playerCarryU;
 			} else {
@@ -38,9 +48,14 @@ if(self.state == "none" and self.attackState == "none" and !self.isPaused){
 			}
 			vspd = -playerMoveSpeed;
 			self.currentlyFacing = "up"
+			if(!smokeToggle){
+				if(!instance_exists(smokePuffEffect)){instance_create_depth(x, y + 8, -2, smokePuffEffect);}
+				smokeToggle = true;
+				resetThrow();
+			}
 		}
 		
-		if(keyboard_check(ord("S"))){
+		if(global.downButtonHeld){
 			if(self.heldItem){
 				self.curAnim = playerCarryD;
 			} else {			
@@ -51,64 +66,38 @@ if(self.state == "none" and self.attackState == "none" and !self.isPaused){
 			}
 			vspd = playerMoveSpeed;
 			self.currentlyFacing = "down"
+			if(!smokeToggle){
+				if(!instance_exists(smokePuffEffect)){instance_create_depth(x, y + 8, -1, smokePuffEffect);}
+				smokeToggle = true;
+				resetThrow();
+			}
 		}
 		
 		
 		///FACING CODE
-		if(keyboard_check_pressed(ord("D"))){
-				hspd = 0;
-				vspd = 0;
-				self.currentlyFacing = "right"
-				instance_create_depth(x, y + 8, -2, smokePuffEffect);
-				resetThrow();
-		}
-	
-		if(keyboard_check_pressed(ord("A"))){ 
-				hspd = 0;
-				vspd = 0;
-				self.currentlyFacing = "left"
-				instance_create_depth(x, y + 8, -2, smokePuffEffect);
-				resetThrow();
-		}
-		
-		if(keyboard_check_pressed(ord("W"))){ 
-				hspd = 0;
-				vspd = 0;
-				self.currentlyFacing = "up"
-				instance_create_depth(x, y + 8, -2, smokePuffEffect);
-				resetThrow();
-		}
-		
-		if(keyboard_check_pressed(ord("S"))){ 
-				hspd = 0;
-				vspd = 0;
-				self.currentlyFacing = "down"
-				instance_create_depth(x, y + 8, -2, smokePuffEffect);
-				resetThrow();
-		}		
 		//
 		
 		//releae key stop hspd / vspd
 				///FACING CODE
-		if(keyboard_check_released(ord("D"))){
+		if(global.rightButtonRelease){
 				hspd = 0;
 		}
 	
-		if(keyboard_check_released(ord("A"))){ 
+		if(global.leftButtonRelease){ 
 				hspd = 0;
 		}
 		
-		if(keyboard_check_released(ord("W"))){ 
+		if(global.upButtonRelease){ 
 				vspd = 0;
 		}
 		
-		if(keyboard_check_released(ord("S"))){ 
+		if(global.downButtonRelease){ 
 				vspd = 0;
 		}		
 		//
 
 	
-		if(keyboard_check_pressed(self.jabButton) and self.attackState != "normalMove"){
+		if(global.aButtonPress and self.attackState != "normalMove"){
 			hspd = 0;
 			vspd = 0;
 			switch(self.currentlyFacing){
@@ -182,7 +171,7 @@ if(self.state == "none" and self.attackState == "none" and !self.isPaused){
 		// this section prevents animation overlap causing buttons to fire off animations on loop
 		//check nuetral states
 		//check nuetral states
-		if(keyboard_check(self.jabButton) and self.attackState == "none"){
+		if(global.aButtonHeld and self.attackState == "none"){
 				switch(self.currentlyFacing){
 					case "up":
 					if(self.heldItem){
@@ -223,9 +212,9 @@ if(self.state == "none" and self.attackState == "none" and !self.isPaused){
 			hspd = 0;
 			vspd = 0;
 		}
+	
 		//check nue
-
-		if(keyboard_check(vk_nokey)){
+		if(global.noButtonPressed){
 			hspd = 0;
 			vspd = 0;
 				switch(self.currentlyFacing){
@@ -274,7 +263,7 @@ checkThrowDistance();
 
 
 //check for throw release?
-if(keyboard_check_released(jabButton) and self.heldItem and instance_exists(throwingBoxObj) and self.canThrow){
+if(global.aButtonRelease and self.heldItem and instance_exists(throwingBoxObj) and self.canThrow){
 	switch(self.currentlyFacing){
 		case "up":
 			with(self.heldItem){
@@ -317,7 +306,7 @@ if(keyboard_check_released(jabButton) and self.heldItem and instance_exists(thro
 
 
 // IF you ever release the throw button and you can't throw, check and delete the throwbox
-if(keyboard_check_released(jabButton)){
+if(global.aButtonRelease){
 	instance_destroy(throwingBoxObj)
 	self.throwHoldTimer = 0;
 }

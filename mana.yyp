@@ -575,6 +575,14 @@
             }
         },
         {
+            "Key": "412ccb7c-e599-4890-8950-41df44a62a74",
+            "Value": {
+                "id": "be1c21c0-4e5d-4435-9217-5b2090f88301",
+                "resourcePath": "notes\/update log.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "42dabc7c-3f6f-4bb8-a9a5-3a15f3f1d432",
             "Value": {
                 "id": "1e01edeb-dfe0-4b0e-bffb-eba0a0d80246",
@@ -1191,6 +1199,14 @@
             }
         },
         {
+            "Key": "8a7db204-6076-4304-bedf-82fce07e81dd",
+            "Value": {
+                "id": "2f848046-e7ce-4b92-bff9-ccc603354acd",
+                "resourcePath": "scripts\/gamePadSupport\/gamePadSupport.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8b1b7be3-7dea-4d0e-879c-a08ddf8f2939",
             "Value": {
                 "id": "16371e74-3fb3-47d6-b193-d3e6e7f823e1",
@@ -1243,6 +1259,14 @@
             "Value": {
                 "id": "0b7c7788-89f4-46d4-b3a5-94b9e6c90dae",
                 "resourcePath": "scripts\/numberPopUp\/numberPopUp.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "900fd4eb-7bc8-44ca-979c-cc5366f442a0",
+            "Value": {
+                "id": "10b63dcd-1376-4ced-ad2c-3a91fb3f30f7",
+                "resourcePath": "scripts\/gamePadCreate\/gamePadCreate.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1791,6 +1815,14 @@
             }
         },
         {
+            "Key": "c1a31252-1bfb-48a9-a089-ad8da36efd82",
+            "Value": {
+                "id": "ccb7b49a-d3c6-4813-926d-495b905a5a3d",
+                "resourcePath": "views\/c1a31252-1bfb-48a9-a089-ad8da36efd82.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "c1f9a882-5c95-4baa-9aa2-288643547505",
             "Value": {
                 "id": "4cfc0510-4650-4dcf-a9ed-a25fef2ecad7",
@@ -1860,6 +1892,14 @@
                 "id": "18339b4f-20ea-4eb4-8ffb-4836af4f9491",
                 "resourcePath": "sprites\/roomGrabberSpr\/roomGrabberSpr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c822e1f2-b9f3-40b8-8c15-70f5a13bfae6",
+            "Value": {
+                "id": "294d1b8f-8744-40ee-8575-0453292221e7",
+                "resourcePath": "scripts\/checkNoPadPress\/checkNoPadPress.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2300,7 +2340,10 @@
         "d4f123cb-3fed-42ea-9048-76ab3df83d49",
         "27964133-4335-466d-a8a1-f499a93399bb",
         "464aca78-7490-433e-8b56-973f0a847094",
-        "33d5be74-110c-452d-869e-77397af81567"
+        "33d5be74-110c-452d-869e-77397af81567",
+        "8a7db204-6076-4304-bedf-82fce07e81dd",
+        "900fd4eb-7bc8-44ca-979c-cc5366f442a0",
+        "c822e1f2-b9f3-40b8-8c15-70f5a13bfae6"
     ],
     "tutorial": ""
 }
