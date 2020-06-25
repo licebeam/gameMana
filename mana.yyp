@@ -791,6 +791,14 @@
             }
         },
         {
+            "Key": "5485cf7c-2e31-44f0-a07d-b07916750956",
+            "Value": {
+                "id": "4bd9ad7c-9676-4833-94c4-fa3ccbe9f6b2",
+                "resourcePath": "objects\/northCliffSign1\/northCliffSign1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "548c2a74-9524-4165-a4c8-a11b742427fb",
             "Value": {
                 "id": "8b6de303-2119-455a-b64d-887984b97014",
@@ -892,6 +900,14 @@
                 "id": "b2209794-aadb-400d-885b-b25037b469b9",
                 "resourcePath": "scripts\/playerAnimator\/playerAnimator.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "60eb4ebc-d7c9-4500-b59c-799a4c11875c",
+            "Value": {
+                "id": "f1acafd9-3099-447a-8fe3-ebcdd13b61aa",
+                "resourcePath": "objects\/interactTextObj\/interactTextObj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
