@@ -13,9 +13,8 @@ if(dialogPopUpTimer <= 0 and global.interactButtonPress){
 	}
 
 	if(dialogPosition >= ds_list_size(dialogMap)){
+		global.inCutScene = false;
 		instance_destroy(self);
 	}
 
 }
-
-show_debug_message(camera_get_view_width(view))

@@ -62,3 +62,7 @@ currentExp = 0;
 
 //Effects
 smokeToggle = false;
+
+
+//
+global.inCutScene = false;
