@@ -1,6 +1,12 @@
 //Initiate Player Controller
 if(self.state == "none" and self.attackState == "none" and !self.isPaused){
+		//Ring Menu Controller
+		if(global.ringMenuButton and !instance_exists(ringMenuObj)){
+			instance_create_depth(x, y, -4, ringMenuObj);
+		}
 		
+		
+		///MOVEMENT
 		if(global.rightButtonHeld){
 			if(self.heldItem){
 				self.curAnim = playerCarryR;

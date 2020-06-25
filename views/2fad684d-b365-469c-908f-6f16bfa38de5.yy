@@ -9,7 +9,9 @@
         "daa7b31b-a500-40ee-ab03-96892db3c4b1",
         "6e4ce887-c58e-4cc0-a005-29a7c864ec92",
         "e51ee55e-0146-4e1e-b300-bc9a50b40e4c",
-        "a3b4c37b-a593-4f12-a728-48cf07231d59"
+        "a3b4c37b-a593-4f12-a728-48cf07231d59",
+        "d5ba189e-7d25-4d7a-b66a-f40397799e04",
+        "b91c98ed-5886-4448-ad76-584c459db394"
     ],
     "filterType": "GMSprite",
     "folderName": "UIsprites",

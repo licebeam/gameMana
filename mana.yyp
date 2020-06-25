@@ -407,6 +407,14 @@
             }
         },
         {
+            "Key": "3065bab3-5bf0-499f-839f-39de4ac65df1",
+            "Value": {
+                "id": "a705bf65-30b9-4430-a089-828feba7a01e",
+                "resourcePath": "sprites\/fireballIconSpr\/fireballIconSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "30f807be-9715-47e0-9bdc-4ae616ef5406",
             "Value": {
                 "id": "a71e22a7-1ffb-4285-8fd8-a4202afd1f0f",
@@ -671,6 +679,14 @@
             }
         },
         {
+            "Key": "4b596869-e373-43eb-87a4-1822a0d56c8f",
+            "Value": {
+                "id": "9c98e8f5-75c5-4d8e-bda3-1116c0090770",
+                "resourcePath": "scripts\/drawRingIcons\/drawRingIcons.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4b6abe7a-4c9e-4888-aac3-f0b67cc2c43b",
             "Value": {
                 "id": "debbf8fd-3335-4d5e-bb4e-f8f1547ff293",
@@ -724,6 +740,14 @@
                 "id": "8a2ce9d1-a3c6-4a7f-aeff-1279492702b3",
                 "resourcePath": "rooms\/newRoom\/newRoom.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "52014124-67f3-4eab-a2a9-4c46e468feb1",
+            "Value": {
+                "id": "cfc5106c-2386-4958-880f-31ddb00f290b",
+                "resourcePath": "objects\/ringMenuObj\/ringMenuObj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1115,6 +1139,14 @@
             "Value": {
                 "id": "d2e1c04a-2021-409a-8f71-d833e03b6372",
                 "resourcePath": "sprites\/tilesSpr\/tilesSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "81aadce0-e70a-47db-a21d-3896a5369637",
+            "Value": {
+                "id": "fcd5d4b8-a64b-4aac-ad59-35df109a8a4e",
+                "resourcePath": "sprites\/swordIconSpr\/swordIconSpr.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1735,6 +1767,14 @@
             }
         },
         {
+            "Key": "b91c98ed-5886-4448-ad76-584c459db394",
+            "Value": {
+                "id": "4851f969-128a-4f40-a77c-9a8d9c10306d",
+                "resourcePath": "views\/b91c98ed-5886-4448-ad76-584c459db394.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "b9b7a868-a6fd-429c-80d0-45b6e3904882",
             "Value": {
                 "id": "a6a8ad6d-5197-49bc-9e61-9e7688960e66",
@@ -1935,11 +1975,27 @@
             }
         },
         {
+            "Key": "d5ba189e-7d25-4d7a-b66a-f40397799e04",
+            "Value": {
+                "id": "9ae2a1e7-f8bd-49c1-885a-bd07736759e4",
+                "resourcePath": "sprites\/weaponIconGoldUiSpr\/weaponIconGoldUiSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d6c4c0bb-2a5d-4448-9d63-16c54546ba12",
             "Value": {
                 "id": "d15699b8-104f-4cc2-89c9-58334a4f26f0",
                 "resourcePath": "objects\/roomPortalCaves1Out\/roomPortalCaves1Out.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d8e2c61c-4db4-4bbc-8ed1-102c9c48765c",
+            "Value": {
+                "id": "ffe22a01-954c-4555-a8dc-16fa76f7c707",
+                "resourcePath": "views\/d8e2c61c-4db4-4bbc-8ed1-102c9c48765c.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -2343,7 +2399,8 @@
         "33d5be74-110c-452d-869e-77397af81567",
         "8a7db204-6076-4304-bedf-82fce07e81dd",
         "900fd4eb-7bc8-44ca-979c-cc5366f442a0",
-        "c822e1f2-b9f3-40b8-8c15-70f5a13bfae6"
+        "c822e1f2-b9f3-40b8-8c15-70f5a13bfae6",
+        "4b596869-e373-43eb-87a4-1822a0d56c8f"
     ],
     "tutorial": ""
 }

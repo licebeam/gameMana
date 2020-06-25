@@ -24,6 +24,8 @@ global.aButtonPress = noone;
 global.aButtonRelease = noone;
 global.startButtonPress = noone;
 
+global.rTriggerPress = noone;
+global.lTriggerPress = noone;
 // axis
 global.haxis = noone;
 global.vaxis = noone;
