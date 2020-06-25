@@ -32,6 +32,7 @@ if(global.controllerOn and global.GP){
 	global.aButtonHeld = gamepad_button_check(0, gp_face1);
 	//pressed
 	global.aButtonPress = gamepad_button_check_pressed(0, gp_face1);
+	global.interactButtonPress = gamepad_button_check_pressed(0, gp_face4);
 	global.startButtonPress = gamepad_button_check_pressed(0, gp_select);
 	global.ringMenuButton = gamepad_button_check_pressed(0, gp_start);
 	global.rTriggerPress = gamepad_button_check_pressed(0, gp_shoulderr) or  gamepad_button_check_pressed(0, gp_shoulderrb);

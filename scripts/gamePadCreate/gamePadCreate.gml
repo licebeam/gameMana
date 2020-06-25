@@ -1,5 +1,5 @@
 //SUPPORT CONTROLS GAME SETTINGS
-global.showDebug = true;
+global.showDebug = false;
 global.controllerOn = false;
 global.GP = gamepad_is_supported();
 //held buttons

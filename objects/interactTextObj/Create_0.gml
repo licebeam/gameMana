@@ -14,3 +14,6 @@ isDialogOpen = false;
 dialogPosition = 0;
 
 curLine = ds_list_find_value(dialogMap, 0);
+lineWidth = camera_get_view_x(view) + 320;
+lineHeight = camera_get_view_y(view) + 80;
+nameWidth = scribble_get_width(displayName) + 16;
