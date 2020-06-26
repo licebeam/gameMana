@@ -2,8 +2,17 @@
 // You can write your code in this editor
 
 //check how close player is so that they can activate dialog;
-if(distance_to_object(playerObj) <= 1 and global.interactButtonPress and !instance_exists(interactTextObj)){
+if(distance_to_object(playerObj) <= 3  and !instance_exists(popInstance) and !instance_exists(interactTextObj)){
+	popInstance = instance_create_depth(x, y - 8, -2, textPopObj);
+}
+
+if(distance_to_object(playerObj) >= 3 and instance_exists(popInstance)){
+	instance_destroy(popInstance);
+}
+
+if(distance_to_object(playerObj) <= 3 and global.interactButtonPress and !instance_exists(interactTextObj)){
 	//set text object to open
+
 			with(instance_create_depth(x,y,-2,interactTextObj)){
 				isDialogOpen = true;
 				//set dialo to the dialog in parent

@@ -399,6 +399,14 @@
             }
         },
         {
+            "Key": "2eae46c3-1aa4-4436-845d-bf4875c01659",
+            "Value": {
+                "id": "fbd9daca-8870-4565-9a70-71482778b63f",
+                "resourcePath": "views\/2eae46c3-1aa4-4436-845d-bf4875c01659.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "2fad684d-b365-469c-908f-6f16bfa38de5",
             "Value": {
                 "id": "81fd9df4-89cf-4539-8acd-b1699ee88918",
@@ -1199,6 +1207,14 @@
             }
         },
         {
+            "Key": "850c1ee9-7853-42c8-bd18-e8a033243cd8",
+            "Value": {
+                "id": "98704db0-2d44-4bf7-acf5-f2c71ec69a9a",
+                "resourcePath": "views\/850c1ee9-7853-42c8-bd18-e8a033243cd8.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "853cc3dc-bb29-429c-b828-a68514d4f06e",
             "Value": {
                 "id": "c6577d2f-756b-4ca1-83cd-de1d70bb3d79",
@@ -1511,6 +1527,14 @@
             }
         },
         {
+            "Key": "a16ac780-9194-46d2-ae96-7e5ef878b49e",
+            "Value": {
+                "id": "da15d72e-7d6b-4e0f-9a73-6736f9d89d7d",
+                "resourcePath": "sprites\/signPostSpr\/signPostSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a1caea1c-eead-4d07-a5b4-047647e976e7",
             "Value": {
                 "id": "530dde0c-e0fc-40be-a164-fceae40eb3f4",
@@ -1652,6 +1676,14 @@
                 "id": "65bf51c8-32e2-401d-921a-406722bf2d5c",
                 "resourcePath": "scripts\/setHeldItem\/setHeldItem.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b0475edd-bfb7-4036-b794-7642db685f6d",
+            "Value": {
+                "id": "e687fa8b-0ebd-432c-9a8c-4e9452723133",
+                "resourcePath": "sprites\/textPopSpr\/textPopSpr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1924,6 +1956,14 @@
                 "id": "cee80e2d-7519-4be4-9354-e3292548a691",
                 "resourcePath": "fonts\/mainFont\/mainFont.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "c4d343ae-eebd-4943-b30d-72973e198b83",
+            "Value": {
+                "id": "c3c054b8-b7cc-450f-a241-d7ad47c19a95",
+                "resourcePath": "objects\/textPopObj\/textPopObj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
