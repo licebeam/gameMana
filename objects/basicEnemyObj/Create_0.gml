@@ -4,6 +4,14 @@ targetX = self.x;
 targetY = self.y;
 
 
+//spawn point
+spawnPointX = self.x;
+spawnPointY = self.y;
+
+//states
+inCombat = false;
+inWander = true;
+
 //HIT STUFF
 
 self.randNumber = random_range(1, 2);

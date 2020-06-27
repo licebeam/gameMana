@@ -21,3 +21,7 @@ isScreenShake = false;
 scribble_init("fonts", "numFont", true);
 scribble_bake_outline("numFont", "coolFont", 2, 1, c_black, false);
 scribble_set_starting_format("coolFont", c_white, 0);
+BktGlitch_init(); //getting uniform pointers
+
+global.seed = random_get_seed()
+global.glitchedOut = false;

@@ -53,3 +53,38 @@ draw_rectangle_color(24, 88, playerObj.attackBar + 32, 98, c_blue, c_blue, c_blu
 
 //debug stuff
 //draw_text(200,30, instance_count);
+
+
+//activating the shader
+if(global.glitchedOut){
+	//if (os_device == os_macosx){
+	//	shader_set(shdBktGlitchMac);
+	//}else{
+	shader_set(shdBktGlitch);
+	//}
+
+	//setting the resolution
+	BktGlitch_set_resolution_of_application_surface();
+
+	//passing time to the shader (making sure nothing stays static)
+	BktGlitch_set_time(current_time * 0.06);
+
+	//quickly setting all parameters at once using a preset
+	BktGlitch_config_preset(BktGlitchPreset.C);
+
+	//additional tweaking
+	BktGlitch_set_jumbleness(0.02);
+	BktGlitch_set_jumble_speed(.02);
+	BktGlitch_set_jumble_resolution(random_range(0.2, 0.4));
+	BktGlitch_set_jumble_shift(random_range(0.2, 0.4));
+	BktGlitch_set_channel_shift(0.01);
+	BktGlitch_set_channel_dispersion(.1);
+	BktGlitch_set_rng_seed(global.seed);
+
+
+	//drawing the application surface
+	draw_surface(application_surface, 0, 0);
+
+	//done using the shader
+	shader_reset();
+}

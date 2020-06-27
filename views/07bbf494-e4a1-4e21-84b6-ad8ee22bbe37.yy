@@ -12,7 +12,8 @@
         "05f04180-1930-4918-94b9-7ded2930ee86",
         "9cf01b29-370c-4163-9511-78cecd0683af",
         "c5727e18-c3f3-4d51-af94-2e0f0183898d",
-        "075caa76-8b99-4496-ac4d-716732ad1677"
+        "075caa76-8b99-4496-ac4d-716732ad1677",
+        "423cf372-463f-451e-8be5-eb49f79be8db"
     ],
     "filterType": "GMObject",
     "folderName": "generalGroupObj",
