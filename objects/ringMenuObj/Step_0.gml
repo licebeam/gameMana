@@ -26,3 +26,15 @@ if(self.closing){
 if(closeTimer >= 30){
 	instance_destroy(self);
 }
+
+if(global.aButtonPress and !self.closing and !self.isOpening){
+	show_debug_message("equipping");
+	show_debug_message(ds_list_find_value(ringItems, 6));
+	playerObj.currentWeapon = ds_list_find_value(ringItems, 6);
+}
+
+if(global.a2ButtonPress and !self.closing and !self.isOpening){
+	show_debug_message("equipping");
+	show_debug_message(ds_list_find_value(ringItems, 6));
+	playerObj.secondaryWeapon = ds_list_find_value(ringItems, 6);
+}

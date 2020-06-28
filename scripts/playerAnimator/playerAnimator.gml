@@ -41,7 +41,7 @@ if(checkMaxOnScreen()){
 				}
 				//active hitbox
 				if(animName == playerAttackU and self.animationFrames == 2){
-					shootWeapon(weaponChanger(false), 0)
+					shootWeapon(weaponChanger(), 0)
 				}
 			break;
 					
@@ -52,7 +52,7 @@ if(checkMaxOnScreen()){
 				}
 				//active hitbox
 				if(animName == playerAttackD and self.animationFrames == 2){
-					shootWeapon(weaponChanger(false), 0)
+					shootWeapon(weaponChanger(), 0)
 				}
 			break;
 					
@@ -63,7 +63,7 @@ if(checkMaxOnScreen()){
 				}
 				//active hitbox
 				if(animName == playerAttackR and self.animationFrames == 2){
-					shootWeapon(weaponChanger(false), 0)
+					shootWeapon(weaponChanger(), 0)
 				}
 			break;
 					
@@ -74,7 +74,7 @@ if(checkMaxOnScreen()){
 				}
 				//active hitbox
 				if(animName == playerAttackL and self.animationFrames == 2){
-					shootWeapon(weaponChanger(false), 0)
+					shootWeapon(weaponChanger(), 0)
 				}
 			break;
 		}

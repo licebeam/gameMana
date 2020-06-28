@@ -30,8 +30,10 @@ if(global.controllerOn and global.GP){
 	///SETUP FACE BUTTONS
 	//held
 	global.aButtonHeld = gamepad_button_check(0, gp_face1);
+	global.a2ButtonHeld = gamepad_button_check(0, gp_face2);
 	//pressed
 	global.aButtonPress = gamepad_button_check_pressed(0, gp_face1);
+	global.a2ButtonPress = gamepad_button_check_pressed(0, gp_face2);
 	global.interactButtonPress = gamepad_button_check_pressed(0, gp_face4);
 	global.startButtonPress = gamepad_button_check_pressed(0, gp_select);
 	global.ringMenuButton = gamepad_button_check_pressed(0, gp_start);
@@ -39,6 +41,7 @@ if(global.controllerOn and global.GP){
 	global.lTriggerPress = gamepad_button_check_pressed(0, gp_shoulderl) or  gamepad_button_check_pressed(0, gp_shoulderlb);
 	//released
 	global.aButtonRelease = gamepad_button_check_released(0, gp_face1);
+	global.a2ButtonRelease = gamepad_button_check_released(0, gp_face2);
 }
 
 

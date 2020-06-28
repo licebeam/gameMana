@@ -21,7 +21,7 @@ if(self.animationFrames != (image_number * animSpeed) and !self.holdAnim){
 		//this will restart the animation
 		self.animationFrames = 0;
 		image_index = 0;
-		self.holdAnim = true;
+		//self.holdAnim = true;
 		
 		//if kill arg = true kill after animating
 		if(kill){

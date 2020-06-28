@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "13ac18c1-3562-431b-9a73-3435d26b2610",
+            "Value": {
+                "id": "3bf61864-cfc1-4506-b461-383e101df097",
+                "resourcePath": "scripts\/attackController\/attackController.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "14ea75ce-88d6-4194-96a6-e332e72d8950",
             "Value": {
                 "id": "cfc4d499-d0d6-4ab5-8df1-b4e9ebc6cda5",
@@ -647,6 +655,14 @@
             }
         },
         {
+            "Key": "3eba273c-4d8a-4738-b773-2e7b51da5370",
+            "Value": {
+                "id": "bc28510d-52d6-422a-933c-d8e114d31c78",
+                "resourcePath": "sprites\/fireMagicSpr\/fireMagicSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4037fb7e-ac5c-4274-9d41-3eb05e1628ab",
             "Value": {
                 "id": "c12b70ca-88e8-4f9f-8ed2-fba9114078e6",
@@ -716,6 +732,14 @@
                 "id": "52aa5a22-c492-49de-ae73-fa42c1363892",
                 "resourcePath": "views\/4507098b-7acc-4433-9e9c-953d67218506.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "454c2559-60b6-4f73-a477-4fb10cb4cb44",
+            "Value": {
+                "id": "4a2c2b61-f45b-4006-8d46-8a2bdddac45e",
+                "resourcePath": "objects\/fireballHitBox\/fireballHitBox.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1327,6 +1351,14 @@
             }
         },
         {
+            "Key": "848cc9b2-4dca-43bb-bf84-4424c5207e4d",
+            "Value": {
+                "id": "64e30876-5c6c-4534-b67b-2acbffd6ce53",
+                "resourcePath": "objects\/fireballObj\/fireballObj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8497fd5f-02b9-4292-a17d-ea56476889ee",
             "Value": {
                 "id": "a40ea440-c612-4668-8fc3-27b012841a02",
@@ -1444,6 +1476,14 @@
                 "id": "eb298f8a-90d1-4de4-86c2-b71b443418aa",
                 "resourcePath": "sounds\/caveMusic\/caveMusic.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "8d92b9e2-395c-48d1-9dad-c1c257717b3b",
+            "Value": {
+                "id": "12ac5cad-7e7d-4234-b9bc-52da86f7aeba",
+                "resourcePath": "objects\/fizzleObj\/fizzleObj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2183,6 +2223,14 @@
             }
         },
         {
+            "Key": "cecb26a8-0da1-4e01-adf8-2fd9bab485c5",
+            "Value": {
+                "id": "5ff4a2ed-cc5a-4df3-aefb-5ad16beee0cf",
+                "resourcePath": "scripts\/drawHeldItems\/drawHeldItems.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cf3fcbfc-c87f-4490-b8fd-794f7a2f75ed",
             "Value": {
                 "id": "a94434e8-c3c6-4562-b7a7-0ac764fc7012",
@@ -2619,6 +2667,8 @@
         "a5f520ac-de65-4f4e-a388-c1622693e15e",
         "e505680d-afa3-4589-a689-d96fb8aab8c6",
         "22258b05-d2ed-4f50-9acb-437adf4991bf",
+        "cecb26a8-0da1-4e01-adf8-2fd9bab485c5",
+        "13ac18c1-3562-431b-9a73-3435d26b2610",
         "7ee755c8-4840-45c6-b1ed-56fd9ee1a287",
         "99ebcf7f-5cee-4e46-b66b-8c88d047b350",
         "746f58b3-7501-4ba9-bfde-d69114da6c89",

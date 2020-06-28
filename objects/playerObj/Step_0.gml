@@ -2,6 +2,15 @@
 // You can write your code in this editor
 //reset smoke toggle
 if(!global.inCutScene){
+	
+	//mana regen timer
+		manaRegen -= 1;
+		if(self.mp != self.maxMp and manaRegen <= 0){
+			self.mp += 1;
+			//regen every 60 frames
+			manaRegen = 60;
+		}
+	//
 	if(!instance_exists(smokePuffEffect)){
 		smokeToggle = false
 	}

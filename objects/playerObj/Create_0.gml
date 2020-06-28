@@ -18,12 +18,11 @@ self.animationFrames = 0;
 self.curAnim = playerNR;
 self.playerMoveSpeed = 60;
 
-//Boosted Weapon
-self.canBoost = false;
-
-
 //UI ITEMS
-self.currentWeapon = "lance"
+self.currentWeapon = "lance";
+self.secondaryWeapon = "none";
+self.attack1 = false;
+self.attack2 = false;
 
 
 //HOLDING ITEMS;
@@ -66,3 +65,6 @@ smokeToggle = false;
 
 //
 global.inCutScene = false;
+
+//mana regen time setup
+manaRegen = 60;

@@ -7,7 +7,8 @@ if(!global.inCutScene){
 	if(isDoingSpecialAttack == false and collision_rectangle(roomViewGrabber.bbox_left, roomViewGrabber.bbox_top ,roomViewGrabber.bbox_right, roomViewGrabber.bbox_bottom, self, false, false)){
 		mp_potential_step_object(targetX, targetY, 0.5, softWallObj);
 		//closest range to player
-		if(distance_to_object(playerObj) < 16 and inCombat == true){
+		if(distance_to_object(playerObj) < 16){
+			inCombat = true;
 			targetX = self.x;
 			targetY = self.y;
 			lastKnownPlayerX = playerObj.x;
