@@ -19,6 +19,7 @@ global.leftButtonRelease = noone;
 global.rightButtonRelease = noone;
 
 //face buttons
+global.ringMenuButton = noone;
 global.aButtonHeld = noone;
 global.aButtonPress = noone;
 global.aButtonRelease = noone;
