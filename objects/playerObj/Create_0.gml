@@ -9,7 +9,6 @@ image_speed = 0;
 //state machine
 self.state = "none";
 self.attackState = "none";
-
 self.currentlyFacing = "right";
 
 

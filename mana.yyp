@@ -495,6 +495,14 @@
             }
         },
         {
+            "Key": "3130cb05-438e-4ea2-873d-f20c5f87b3e9",
+            "Value": {
+                "id": "7b193187-8e8d-483c-890f-a4c370453546",
+                "resourcePath": "scripts\/saveGame\/saveGame.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "320c361c-e3d9-45f6-a5f6-fa422d7c5817",
             "Value": {
                 "id": "ad38cefb-f002-45f0-9227-64943902ccae",
@@ -1271,6 +1279,14 @@
             }
         },
         {
+            "Key": "7a906302-319d-46a9-a0db-2d133a2c6dac",
+            "Value": {
+                "id": "2e377f81-9eaf-4119-a20f-1770966774fe",
+                "resourcePath": "scripts\/loadGame\/loadGame.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7c1d8641-a93c-4e1e-8530-37a429b86f1f",
             "Value": {
                 "id": "f4e84c74-8226-4210-bd9a-7b76f702df51",
@@ -1452,6 +1468,14 @@
                 "id": "16371e74-3fb3-47d6-b193-d3e6e7f823e1",
                 "resourcePath": "views\/8b1b7be3-7dea-4d0e-879c-a08ddf8f2939.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8b9e05a6-a291-4660-b436-8849fd6f2dfe",
+            "Value": {
+                "id": "45546097-9bb4-4248-a712-72b157b245a9",
+                "resourcePath": "scripts\/saveStringToFile\/saveStringToFile.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2271,6 +2295,14 @@
             }
         },
         {
+            "Key": "d61b1e35-dfbe-4e0d-9770-3c4ac7da22f0",
+            "Value": {
+                "id": "4dae4cae-2a2c-453c-bad8-f767345abab1",
+                "resourcePath": "scripts\/loadJsonFromFile\/loadJsonFromFile.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d6c4c0bb-2a5d-4448-9d63-16c54546ba12",
             "Value": {
                 "id": "d15699b8-104f-4cc2-89c9-58334a4f26f0",
@@ -2615,6 +2647,14 @@
             }
         },
         {
+            "Key": "fc60d368-7999-4789-b8c4-71f447550cce",
+            "Value": {
+                "id": "57e93330-fb59-4693-bf91-c57b0a749048",
+                "resourcePath": "views\/fc60d368-7999-4789-b8c4-71f447550cce.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "fe5ec696-cc80-4c32-a7a2-133413740c0e",
             "Value": {
                 "id": "82863d72-8e4d-4903-80e3-1da3b238cd16",
@@ -2761,7 +2801,11 @@
         "e0cd26cf-3f8b-41f2-8cc2-777b00febc88",
         "50df19e6-b907-44fc-8aed-2a868872fc38",
         "0017d0f2-d597-49ca-b116-7485a716c950",
-        "dab72f51-a545-4165-8a66-3531a206a844"
+        "dab72f51-a545-4165-8a66-3531a206a844",
+        "3130cb05-438e-4ea2-873d-f20c5f87b3e9",
+        "7a906302-319d-46a9-a0db-2d133a2c6dac",
+        "8b9e05a6-a291-4660-b436-8849fd6f2dfe",
+        "d61b1e35-dfbe-4e0d-9770-3c4ac7da22f0"
     ],
     "tutorial": ""
 }
