@@ -19,3 +19,5 @@ lineHeight = camera_get_view_y(view) + 80;
 nameWidth = scribble_get_width(displayName) + 16;
 
 global.inCutScene = true;
+
+destroyTimer = 12;

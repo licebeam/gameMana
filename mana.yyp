@@ -1023,6 +1023,14 @@
             }
         },
         {
+            "Key": "5d995d0b-e84b-461b-b9a4-baa6de49e1cf",
+            "Value": {
+                "id": "54f18933-b4a3-4b92-b74a-2e54f0f76870",
+                "resourcePath": "objects\/saveTerminal\/saveTerminal.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5e7139d7-e468-4365-95c9-eba8f8b88a8a",
             "Value": {
                 "id": "5a53d9b1-0bc7-4f19-aa09-e13964b2c2f1",
@@ -1823,6 +1831,14 @@
             }
         },
         {
+            "Key": "a77fde26-deaf-4068-8486-29ab18ffc9d6",
+            "Value": {
+                "id": "6a53c54e-d73e-4053-9ca0-afb283fdab82",
+                "resourcePath": "sprites\/terminalOffSpr\/terminalOffSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a804f086-888d-4256-8e11-98572c54eba4",
             "Value": {
                 "id": "17509f13-18d4-41be-9f0c-0d2b7d980495",
@@ -1860,6 +1876,14 @@
                 "id": "49565cdc-b45c-49f5-bcfb-8d558f2fa75d",
                 "resourcePath": "scripts\/__scribble_macros\/__scribble_macros.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "acb907b8-b4e8-4a89-bd2f-fc5ecc0ec7ff",
+            "Value": {
+                "id": "7ed5d65c-a379-4aeb-9c00-340575300626",
+                "resourcePath": "sprites\/terminalSpr\/terminalSpr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

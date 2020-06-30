@@ -11,10 +11,14 @@ if(dialogPopUpTimer <= 0 and global.interactButtonPress){
 		curLine = ds_list_find_value(dialogMap, dialogPosition)
 		scribble_autotype_fade_in(curLine, 0.3, 1, false);
 	}
+}
 
-	if(dialogPosition >= ds_list_size(dialogMap)){
-		global.inCutScene = false;
-		instance_destroy(self);
-	}
+if(dialogPosition >= ds_list_size(dialogMap)){
+	ds_list_clear(dialogMap);
+	global.inCutScene = false;
+	destroyTimer -= 1;
+}
 
+if(destroyTimer <= 0){
+	instance_destroy(self);
 }
