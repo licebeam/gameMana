@@ -8,7 +8,7 @@ if (surface_exists(surf)) {
     surface_set_target(surf);
 	
     // The following three lines set the 'dark' overlay
-	if(room == 0){
+	if(room == 1){
 	    draw_set_color(c_black);
 	    draw_set_alpha(0.5);
 	    draw_rectangle(0, 0, room_width, room_height, 0);
@@ -70,7 +70,7 @@ if (surface_exists(surf)) {
 	}
 	
 	
-	if(room = 1){
+	if(room = 2){
 		//DO SOME COOL OVERLAY STUFF
 	    // The following three lines set the 'dark' overlay
 	    draw_set_color(c_orange);

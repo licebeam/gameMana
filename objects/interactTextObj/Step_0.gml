@@ -2,7 +2,7 @@
 // You can write your code in this editor
 dialogPopUpTimer -= 1;
 
-if(dialogPopUpTimer <= 0 and global.interactButtonPress){
+if(dialogPopUpTimer <= 0 and global.interactButtonPress and !instance_exists(saveGameScreenObj)){
 	//check for dialog progression
 	dialogPosition += 1;
 
@@ -20,5 +20,9 @@ if(dialogPosition >= ds_list_size(dialogMap)){
 }
 
 if(destroyTimer <= 0){
+	if(isSave){
+		show_debug_message("opening save menu");
+		instance_create_depth(0, 0, -1000, saveGameScreenObj);
+	}
 	instance_destroy(self);
 }

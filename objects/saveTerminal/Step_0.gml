@@ -12,7 +12,7 @@ if(distance_to_object(playerObj) >= 3 and instance_exists(popInstance)){
 	specialAnimator(terminalOffSpr, false, 1);
 }
 
-if(distance_to_object(playerObj) <= 3 and global.interactButtonPress and !instance_exists(interactTextObj)){
+if(distance_to_object(playerObj) <= 3 and global.interactButtonPress and !instance_exists(interactTextObj) and !instance_exists(saveGameScreenObj)){
 	//set text object to open
 			with(instance_create_depth(x,y,-2,interactTextObj)){
 				ds_list_clear(dialogMap);
@@ -21,13 +21,12 @@ if(distance_to_object(playerObj) <= 3 and global.interactButtonPress and !instan
 				dialogPopUpTimer = 12;
 				displayName = "Save Terminal";
 				ds_list_add(dialogMap, "Terminal Booting");
-				ds_list_add(dialogMap, "Are you reading this dialog?");
-				ds_list_add(dialogMap, "Perhaps this won't destroy the screen if I were to make it long but use word breaks?");
 				curLine = ds_list_find_value(dialogMap, dialogPosition)
 				nameWidth = scribble_get_width(displayName) + 16;
 				lineWidth = camera_get_view_x(view) + 320;
 				lineHeight = camera_get_view_y(view) + 80;
 				scribble_set_wrap(camera_get_view_width(view) - 16, camera_get_view_y(view) + lineHeight);
 				scribble_autotype_fade_in(curLine, 0.3, 1, false);
+				isSave = true;
 			}
 }

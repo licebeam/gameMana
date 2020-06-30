@@ -10,7 +10,7 @@ if(distance_to_object(playerObj) >= 3 and instance_exists(popInstance)){
 	instance_destroy(popInstance);
 }
 
-if(distance_to_object(playerObj) <= 3 and global.interactButtonPress and !instance_exists(interactTextObj)){
+if(distance_to_object(playerObj) <= 3 and global.interactButtonPress and !instance_exists(interactTextObj) and !instance_exists(saveGameScreenObj)){
 	//set text object to open
 
 			with(instance_create_depth(x,y,-2,interactTextObj)){

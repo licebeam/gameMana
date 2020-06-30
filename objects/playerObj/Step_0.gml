@@ -45,7 +45,7 @@ if(!global.inCutScene){
 
 	if(self.hp <= 0){
 	//player has died
-		room_restart();
+		room_goto(0);
 		self.hp = self.maxHp;
 		//set mp here too
 	}

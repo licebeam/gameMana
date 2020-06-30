@@ -21,3 +21,4 @@ nameWidth = scribble_get_width(displayName) + 16;
 global.inCutScene = true;
 
 destroyTimer = 12;
+isSave = false;

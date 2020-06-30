@@ -5,7 +5,7 @@ timeToSpawn -= 1;
 if(timeToSpawn <= 0){
 	timeToSpawn = 16;
 	
-	if(room == 1){
+	if(room == 2){
 		instance_create_depth(
 		roomViewGrabber.bbox_left,
 		roomViewGrabber.bbox_top + irandom_range(1, 179),
@@ -14,7 +14,7 @@ if(timeToSpawn <= 0){
 	}
 	
 	//fireflies
-	if(room == 0){
+	if(room == 1){
 		if(instance_number(fireFlyCameraEffect) <= 5){
 			instance_create_depth(
 			roomViewGrabber.bbox_right - irandom_range(32, 288),
