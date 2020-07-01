@@ -27,6 +27,7 @@ global.a2ButtonHeld = noone;
 global.a2ButtonPress = noone;
 global.a2ButtonRelease = noone;
 global.startButtonPress = noone;
+global.interactButtonPress = noone;
 
 global.rTriggerPress = noone;
 global.lTriggerPress = noone;

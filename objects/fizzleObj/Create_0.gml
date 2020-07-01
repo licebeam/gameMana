@@ -2,7 +2,6 @@
 // You can write your code in this editor
 image_speed = 0;
 self.animationFrames = 3;
-self.holdAnim = false;
 
 switch (playerObj.currentlyFacing){
 	case "up":

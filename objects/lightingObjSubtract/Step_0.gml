@@ -30,7 +30,7 @@ if (surface_exists(surf)) {
 		with (lanceObj)
 	        draw_sprite_ext(glowingAlphaSpr, 0, x, y, 0.2, 0.2, 0, c_black, .8);
 		//pickups
-		with (breakableObj)
+		with (breakableParent)
 	        draw_sprite_ext(glowingAlphaSpr, 0, x, y, 0.2, 0.2, 0, c_black, .8);
 		
 		with (lancePickUp)

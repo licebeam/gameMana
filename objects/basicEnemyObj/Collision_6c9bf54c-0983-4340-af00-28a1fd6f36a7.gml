@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
+createSmokePuffs(x, y);
 //PUSH BACK CODE
 switch(playerObj.currentlyFacing){
 	case "left":
@@ -24,3 +24,7 @@ switch(playerObj.currentlyFacing){
 		knockBackTimer = 10;
 	break;
 }
+
+//setAttackRangeLow then return.
+attackRangeMax = aggroRange;
+alarm[1] = aggroTimer;

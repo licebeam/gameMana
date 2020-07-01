@@ -16,7 +16,6 @@ inWander = true;
 
 self.randNumber = random_range(1, 2);
 self.itemToGenerate = randomItem(self.randNumber);
-hitPoints = 3;
 image_speed = 0;
 self.animationFrames = 0;
 self.sprite = slimeSpr;
@@ -40,8 +39,11 @@ vspd = 0;
 // STATS FOR BATTLE
 hitPoints = 60;
 damage = 1;
-experience = 40;
 
+attackRangeMax = 64;
+attackRangeMin = 16;
+aggroTimer = 360; //six seconds
+aggroRange = 320; //full screen range
 
 //Attack animations
 specialAttackTimer = 30;

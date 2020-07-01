@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-specialAnimator(fireMagicSpr, false, 1);
+specialAnimator(fireMagicSpr, false, 2, false);
 
 if(image_xscale == 1){
 	//self.x += 14;

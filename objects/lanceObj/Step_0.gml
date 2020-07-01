@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-specialAnimator(lanceSpr, true, 1);
+specialAnimator(lanceSpr, true, 1, false);
 
 if(image_xscale == 1){
 	//self.x += 14;

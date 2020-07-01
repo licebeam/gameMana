@@ -6,3 +6,7 @@ screenKillTimer = 16;
 killScreen = false;
 
 menuOptionSelected = 0;
+
+inputTimer = 3;
+movingToNextOption = false;
+menuDirection = noone;

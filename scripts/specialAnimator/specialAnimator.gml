@@ -1,7 +1,9 @@
 var animName = argument0
 var kill = argument1; //boolean value
 var animSpeed = argument2;
-//new
+var shouldPause = argument3; //pauses animation on first go.
+//new set default speed to 0
+image_speed = 0;
 //If the animations don't match, restart
 if(animName != sprite_index){
 	self.animationFrames = 0;
@@ -9,7 +11,7 @@ if(animName != sprite_index){
 	image_index = 0;
 }
 
-if(self.animationFrames != (image_number * animSpeed) and !self.holdAnim){
+if(self.animationFrames != (image_number * animSpeed) and !shouldPause){
 	self.animationFrames += 1;
 	//make sure frame changes on animSpeed modulo
 	if((animationFrames mod animSpeed) == 0){
@@ -21,8 +23,7 @@ if(self.animationFrames != (image_number * animSpeed) and !self.holdAnim){
 		//this will restart the animation
 		self.animationFrames = 0;
 		image_index = 0;
-		//self.holdAnim = true;
-		
+	
 		//if kill arg = true kill after animating
 		if(kill){
 			instance_destroy(self);

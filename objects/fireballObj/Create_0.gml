@@ -1,8 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 image_speed = 0;
-self.animationFrames = 3;
-self.holdAnim = false;
+self.animationFrames = 6;
 self.hitbox = instance_create_depth(self.x, self.y, -2, fireballHitBox);
 
 hspd = 0;
@@ -71,8 +70,8 @@ var myDamage = (playerObj.damage);
 with(self.hitbox){
 	hbParent = myId;
 	damage = myDamage;
-	lifespan = 128
+	lifespan = 60
 }
 
 //instance lifespan
-lifespan = 128; //2 frames
+lifespan = 60; //2 frames

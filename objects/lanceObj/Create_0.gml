@@ -2,7 +2,6 @@
 // You can write your code in this editor
 image_speed = 0;
 self.animationFrames = 0;
-self.holdAnim = false;
 self.hitbox = instance_create_depth(self.x, self.y, -2, lanceHitBox);
 
 switch (playerObj.currentlyFacing){

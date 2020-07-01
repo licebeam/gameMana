@@ -295,10 +295,26 @@
             }
         },
         {
+            "Key": "1af81844-6fb1-424d-acd2-4e777cb8418f",
+            "Value": {
+                "id": "410db42d-4f62-48c2-9c63-234099ac67a4",
+                "resourcePath": "objects\/breakableParent\/breakableParent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1afa83e1-08a4-4ab3-816b-6311d5be1607",
             "Value": {
                 "id": "579307f8-e119-4a57-a40c-0e5dcdd46b38",
                 "resourcePath": "objects\/saveGameScreenObj\/saveGameScreenObj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1bbe984b-7bd9-4b23-a131-8eb7eee23c70",
+            "Value": {
+                "id": "5dd01f1c-6531-4b0a-9bf5-dca8027879d5",
+                "resourcePath": "objects\/breakableChestObj\/breakableChestObj.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -311,6 +327,14 @@
             }
         },
         {
+            "Key": "1dfb558b-4874-49bd-94cb-79842dcd10fe",
+            "Value": {
+                "id": "7384b6e9-a868-42e9-a7ae-b31dc8f6c152",
+                "resourcePath": "objects\/explosionSmallObj\/explosionSmallObj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1ee0bd75-b8fd-4baf-823c-4ec532400ffa",
             "Value": {
                 "id": "8a4cec24-3864-4cda-a05b-ad7335a691e3",
@@ -319,27 +343,11 @@
             }
         },
         {
-            "Key": "1f7a32f0-8195-46cf-8b8a-92737249ac63",
-            "Value": {
-                "id": "0b32649d-f2b8-4c2e-8cc1-46e4ab707adc",
-                "resourcePath": "objects\/breakableObj\/breakableObj.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "1fba6594-b4a8-49ee-b4f1-1802101a93fc",
             "Value": {
                 "id": "248d2c7d-bf40-4bd8-aee3-f1ea0a770cf7",
                 "resourcePath": "sprites\/glowingAlphaSpr\/glowingAlphaSpr.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "1fbbae73-5c7d-4d31-bd74-0ff565bc4c38",
-            "Value": {
-                "id": "3d93f64e-aad3-48f9-96ba-b582f079d91d",
-                "resourcePath": "objects\/plantObj\/plantObj.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -412,6 +420,14 @@
                 "id": "99b4a632-52c0-4f46-9d8e-5f9e02fef6da",
                 "resourcePath": "scripts\/scribble_draw_get_state\/scribble_draw_get_state.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "2ab61e24-eb66-4b5a-a800-93234c05425e",
+            "Value": {
+                "id": "27ffef9f-5052-448e-b2a8-ac0cc4a9a97b",
+                "resourcePath": "objects\/puffOfSmokeObj\/puffOfSmokeObj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -556,6 +572,14 @@
                 "id": "ede8d9a0-6414-42bd-9f19-ca4d454415dd",
                 "resourcePath": "sprites\/ShellSpr\/ShellSpr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3528da74-14fc-4f6b-927e-4d20574e7719",
+            "Value": {
+                "id": "44bb6afb-cef4-4dbc-8760-0ea5deb056f3",
+                "resourcePath": "scripts\/createSmokePuffs\/createSmokePuffs.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -724,6 +748,14 @@
                 "id": "1e01edeb-dfe0-4b0e-bffb-eba0a0d80246",
                 "resourcePath": "sprites\/slimeAttackSpr\/slimeAttackSpr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "434f0f00-cb30-4e10-90ff-b4fbd1315db7",
+            "Value": {
+                "id": "c63c2d8b-d41c-4f82-9a53-7225177e8bef",
+                "resourcePath": "objects\/tertiaryHitBox\/tertiaryHitBox.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -908,6 +940,14 @@
                 "id": "e90a6587-b0ea-4e3f-b57d-f9e51d17de67",
                 "resourcePath": "views\/52766c95-8c9f-4e7c-b85e-9117d101e523.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5291e460-34c5-457b-878d-1d8a8d5ba69b",
+            "Value": {
+                "id": "8733aa3b-818f-4709-ab87-db6ed537599f",
+                "resourcePath": "sprites\/fireball2Spr\/fireball2Spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1407,6 +1447,14 @@
             }
         },
         {
+            "Key": "84381447-8fef-454e-8a80-a8b14aff0b02",
+            "Value": {
+                "id": "51a34baf-36e9-465f-a5b1-1f42ce08ab9a",
+                "resourcePath": "objects\/breakableParentSoft\/breakableParentSoft.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "848cc9b2-4dca-43bb-bf84-4424c5207e4d",
             "Value": {
                 "id": "64e30876-5c6c-4534-b67b-2acbffd6ce53",
@@ -1627,6 +1675,14 @@
             "Value": {
                 "id": "bac420ab-aca6-4fd6-a1c2-71ee6c7090ed",
                 "resourcePath": "sprites\/pullU\/pullU.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "93791b0b-2727-4dec-ba5b-2d3f6bff20ca",
+            "Value": {
+                "id": "ba95139d-247e-4024-806f-9ac37c1e3596",
+                "resourcePath": "sprites\/tertiaryHitboxSpr\/tertiaryHitboxSpr.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1895,6 +1951,14 @@
             }
         },
         {
+            "Key": "a91ceb00-19f1-4cb8-904a-dbe46621b7d7",
+            "Value": {
+                "id": "5cdcc74e-2252-45b4-977c-d51eb7c76923",
+                "resourcePath": "sprites\/puffOfSmokeSpr\/puffOfSmokeSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ab833ccc-af3c-4bc8-91b7-3e014720cdd5",
             "Value": {
                 "id": "33517169-98ef-47ca-9230-3e7281342a43",
@@ -1948,6 +2012,14 @@
                 "id": "65bf51c8-32e2-401d-921a-406722bf2d5c",
                 "resourcePath": "scripts\/setHeldItem\/setHeldItem.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "afabb704-d7a4-4f48-947a-2b3eaab0b93b",
+            "Value": {
+                "id": "e8371dbb-d877-4b74-8220-e094740ee950",
+                "resourcePath": "objects\/explosionBigObj\/explosionBigObj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2135,6 +2207,14 @@
             }
         },
         {
+            "Key": "be765681-b83d-4492-a719-8169ced9ab73",
+            "Value": {
+                "id": "39b4fed9-7c1b-4e90-b9f6-e6f7aa76490b",
+                "resourcePath": "objects\/breakablePlantObj\/breakablePlantObj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bed45e2e-68de-49fc-afaf-ce3c9132e5ca",
             "Value": {
                 "id": "79e6492b-8be0-492d-9e0b-5538de3c1985",
@@ -2244,6 +2324,14 @@
                 "id": "cee80e2d-7519-4be4-9354-e3292548a691",
                 "resourcePath": "fonts\/mainFont\/mainFont.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "c316020b-e0ff-4721-9c59-3346bd40051a",
+            "Value": {
+                "id": "b64781d6-3051-4430-85fb-6631aeeef375",
+                "resourcePath": "scripts\/createExplosions\/createExplosions.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2771,6 +2859,8 @@
         "5368f53d-88fa-437d-8a01-4cedf9760523",
         "787f4c3f-bfb8-4631-a391-5f545cb1b88f",
         "e828b19f-00b7-42b4-a47e-f7f162869a97",
+        "c316020b-e0ff-4721-9c59-3346bd40051a",
+        "3528da74-14fc-4f6b-927e-4d20574e7719",
         "97f1840b-31e6-43cc-bd53-e5576fc5ff41",
         "c29c01bb-7261-491f-87a4-76275ab293d4",
         "fb49aa34-e9ba-4baf-9a94-fb38da383e98",

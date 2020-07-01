@@ -7,7 +7,7 @@ if(!global.inCutScene){
 	if(isDoingSpecialAttack == false and collision_rectangle(roomViewGrabber.bbox_left, roomViewGrabber.bbox_top ,roomViewGrabber.bbox_right, roomViewGrabber.bbox_bottom, self, false, false)){
 		mp_potential_step_object(targetX, targetY, 0.5, softWallObj);
 		//closest range to player
-		if(distance_to_object(playerObj) < 16){
+		if(distance_to_object(playerObj) < attackRangeMin){
 			inCombat = true;
 			targetX = self.x;
 			targetY = self.y;
@@ -21,7 +21,7 @@ if(!global.inCutScene){
 		}
 
 		//range to approach
-		if(distance_to_object(playerObj) < 64 and distance_to_object(playerObj) > 16){
+		if(distance_to_object(playerObj) < attackRangeMax and distance_to_object(playerObj) > attackRangeMin){
 			inCombat = true;
 			inWander = false;
 			self.sprite = slimeSpr;
@@ -32,7 +32,7 @@ if(!global.inCutScene){
 		}
 		
 		//out of range and 
-		if(inCombat == false and distance_to_object(playerObj) > 16){
+		if(inCombat == false and distance_to_object(playerObj) > attackRangeMin){
 			self.sprite = slimeSpr;
 			inWander = true;
 			//TODO: adjust this so that they only wander when they return home
@@ -47,8 +47,6 @@ if(!global.inCutScene){
 	//check for death
 	if(hitPoints <= 0){
 		//generateItem(self.itemToGenerate)
-		instance_create_depth(self.x, self.y, -2, fireSparkObj);
-		//createExplosiveChunks(self.x, self.y);
 		instance_destroy(self);
 	}
 
