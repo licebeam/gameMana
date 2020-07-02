@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "0a18a50e-6d6d-4abc-8df7-a9b4338c4eef",
+            "Value": {
+                "id": "025ec33d-7419-4b40-a450-b5274db20631",
+                "resourcePath": "objects\/desertMusicObj\/desertMusicObj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0a31ff65-bf77-465f-baa5-44ccaa1fdef9",
             "Value": {
                 "id": "e80acdf5-ca23-48d6-8c75-d588e3def1d1",
@@ -1119,6 +1127,14 @@
             }
         },
         {
+            "Key": "61847136-b306-403d-b586-c147c613cf1a",
+            "Value": {
+                "id": "0db3ce31-e8d4-4282-9fcc-0fb6b12aeaaf",
+                "resourcePath": "sounds\/desertMusic\/desertMusic.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "61cf9c2f-e7be-438b-aa41-579cf21b26a5",
             "Value": {
                 "id": "eeb5da8a-b7d0-4fb1-bcf7-30815b02d9ab",
@@ -1708,6 +1724,14 @@
                 "id": "d95331a7-129d-4981-ba22-8d1278a3fe90",
                 "resourcePath": "views\/959c3869-a476-4f8c-9721-78606b295cbc.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9796428a-2222-4fa1-b1e2-d888c24a9a3e",
+            "Value": {
+                "id": "828f3d40-d12b-4bc0-a463-832e8a9d94f4",
+                "resourcePath": "objects\/cavesMusicObj\/cavesMusicObj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
